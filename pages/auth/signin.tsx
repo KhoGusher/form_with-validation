@@ -96,6 +96,15 @@ return (
             Sign up
           </Link>
         </p>
+        
+        <p className="mt-4 text-sm text-center text-gray-700">
+          <Link
+            href="/auth/forgot-password"
+            className="font-medium text-blue-600 hover:underline"
+          >
+            Forgot pasword
+          </Link>
+        </p>
     </div>
   </div>
 );
